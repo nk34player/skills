@@ -1,0 +1,12 @@
+# build products - rebuild with `python tools/bootstrap.py`
+tools/dbms/dump/
+tools/dbms/*.exe
+tools/dbms/*.obj
+
+# python
+__pycache__/
+*.pyc
+
+# runtime scratch
+tools/_mnet_report.ps1
+*.png
